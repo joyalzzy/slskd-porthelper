@@ -1,2 +1,2 @@
 #!/bin/sh
-sed 's/^\(version: \).*$/\1'"$(cat /pia-shared/port.dat)"'/' /slskd.yml
+sed 's/^\(listen_port: \).*$/\1'"$(cat /pia-shared/port.dat)"'/' /slskd.yml
